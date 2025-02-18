@@ -2,7 +2,7 @@
 
 [![Build and Test](https://github.com/jordojordo/endeavouros-vscode-theme/actions/workflows/publish.yaml/badge.svg)](https://github.com/jordojordo/endeavouros-vscode-theme/actions/workflows/publish.yaml)
 [![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jordojordo.endeavouros-dark?label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/jordojordo.endeavouros-dark)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark-vscode-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/jordojordo.endeavouros-dark)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark)
 
 ![Theme Icon](themes/assets/icons/eos-icon.png)
 
