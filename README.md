@@ -1,8 +1,8 @@
 # 🌌 EndeavourOS Dark & Dark+ - VS Code Theme
 
 [![Build and Test](https://github.com/jordojordo/endeavouros-vscode-theme/actions/workflows/publish.yaml/badge.svg)](https://github.com/jordojordo/endeavouros-vscode-theme/actions/workflows/publish.yaml)
-[![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jordojordo.endeavouros-dark-vscode-theme?label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark-vscode-theme)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/jordojordo.endeavouros-dark-vscode-theme)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark-vscode-theme)
+[![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jordojordo.endeavouros-dark?label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/jordojordo.endeavouros-dark)](https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark-vscode-theme)
 
 ![Theme Icon](themes/assets/icons/eos-icon.png)
 
@@ -20,7 +20,7 @@ This extension provides **two** dark theme variants:
 ### From the VS Code Marketplace
 
 1. Open **VS Code**.
-2. Go to **Extensions** (`Ctrl + Shift + X`).
+2. Go to **Extensions** (`Ctrl + Shift + X` || `Cmd + Shift + X`).
 3. Search for **EndeavourOS Dark**.
 4. Click **Install**.
 
@@ -29,7 +29,7 @@ This extension provides **two** dark theme variants:
 1. Download the latest `.vsix` file from the [Releases](https://github.com/jordojordo/endeavouros-vscode-theme/releases) page.
 2. Open **VS Code** and run:
    ```sh
-   code --install-extension endeavouros-dark-plus-<version>.vsix
+   code --install-extension endeavouros-dark-<version>.vsix
    ```
 
 ## Contributions
