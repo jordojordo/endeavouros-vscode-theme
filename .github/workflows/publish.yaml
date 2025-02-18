@@ -44,5 +44,5 @@ jobs:
         if: github.event_name == 'release' && github.event.action == 'released' && github.event.release.draft == false
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: pnpm publish
+        run: pnpm run publish
 

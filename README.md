@@ -29,7 +29,7 @@ This extension provides **two** dark theme variants:
 1. Download the latest `.vsix` file from the [Releases](https://github.com/jordojordo/endeavouros-vscode-theme/releases) page.
 2. Open **VS Code** and run:
    ```sh
-   code --install-extension endeavouros-dark-<version>.vsix
+   code --install-extension endeavouros-dark-plus-<version>.vsix
    ```
 
 ## Contributions
