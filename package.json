@@ -1,12 +1,18 @@
 {
-  "name": "endeavouros-dark-vscode-theme",
+  "name": "endeavouros-dark",
   "displayName": "EndeavourOS Dark Theme",
   "description": "A VSCode theme based on the EndeavourOS KDE Breeze Dark theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "jordojordo",
   "repository": {
     "type": "git",
     "url": "https://github.com/jordojordo/endeavouros-vscode-theme.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "unpublish": "vsce unpublish"
   },
   "engines": {
     "vscode": "^1.60.0"
@@ -14,6 +20,28 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dark",
+    "dark theme",
+    "theme",
+    "VS Code",
+    "vscode",
+    "themes",
+    "EndeavourOS",
+    "EndeavourOS Dark",
+    "EndeavourOS Dark+",
+    "EndeavourOS Dark Theme",
+    "EndeavourOS Dark+ Theme",
+    "linux",
+    "kde",
+    "breeze",
+    "breeze dark",
+    "kde breeze dark",
+    "kde dark",
+    "kde dark theme",
+    "kde breeze dark theme"
+  ],
+  "icon": "themes/assets/icons/eos-icon.png",
   "contributes": {
     "themes": [
       {
@@ -27,5 +55,8 @@
         "path": "./themes/EndeavourOS_plus.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
   }
 }
