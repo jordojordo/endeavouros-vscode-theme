@@ -10,7 +10,7 @@ A **VS Code theme** inspired by the **EndeavourOS KDE Breeze Dark** theme.
 
 ## Theme Variants
 
-This extension provides **two** dark theme variants:
+This extension provides **two** dark theme variants and **two** dark high contrast theme variants:
 
 1. **EndeavourOS Dark** – A close match to EndeavourOS’ KDE Breeze Dark.
 2. **EndeavourOS Plus** – An emulated version of the EndeavourOS Konsole theme.
@@ -53,9 +53,10 @@ This extension provides **two** dark theme variants:
 When using the Night Shift variant, the editor bracket colorization may be overridden by [the default settings](https://code.visualstudio.com/docs/reference/default-settings). To fix this, add the following to your `settings.json`:
 
 ```json
-// Controls whether each bracket type has its own independent color pool.
 "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 ```
+
+This setting controls whether each bracket type has its own independent color pool.
 
 ## Contributions
 
