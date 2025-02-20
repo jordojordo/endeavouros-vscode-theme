@@ -1,8 +1,8 @@
 {
   "name": "endeavouros-dark",
   "displayName": "EndeavourOS Dark+ Theme",
-  "description": "A VSCode theme based on the EndeavourOS KDE Breeze Dark theme",
-  "version": "0.1.1",
+  "description": "A theme based on the EndeavourOS KDE Breeze Dark colors.",
+  "version": "0.1.2",
   "publisher": "jordojordo",
   "repository": {
     "type": "git",
@@ -32,6 +32,15 @@
     "EndeavourOS Dark+",
     "EndeavourOS Dark Theme",
     "EndeavourOS Dark+ Theme",
+    "EndeavourOS Dark Night Shift",
+    "EndeavourOS Dark Night Shift Theme",
+    "EndeavourOS Dark Blue Light Filter",
+    "EndeavourOS Dark Blue Light Filter Theme",
+    "EndeavourOS Dark Theme High Contrast",
+    "EndeavourOS Dark High Contrast",
+    "EndeavourOS Dark High Contrast Theme",
+    "Blue Light Filter",
+    "Blue Light Filter Theme",
     "linux",
     "kde",
     "breeze",
@@ -53,6 +62,16 @@
         "label": "EndeavourOS Dark+",
         "uiTheme": "vs-dark",
         "path": "./themes/EndeavourOS_plus.json"
+      },
+      {
+        "label": "EndeavourOS Dark Night Shift",
+        "uiTheme": "hc-black",
+        "path": "./themes/EndeavourOS_dark_night_shift.json"
+      },
+      {
+        "label": "EndeavourOS Dark Theme High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/EndeavourOS_dark_high_contrast.json"
       }
     ]
   },
