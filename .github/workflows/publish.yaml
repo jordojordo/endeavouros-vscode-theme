@@ -1,4 +1,4 @@
-name: CI & Publish VS Code Theme
+name: CI & Publish
 
 on:
   pull_request:
@@ -46,3 +46,13 @@ jobs:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: pnpm run publish
 
+      - name: Upload .vsix file as release asset
+        if: github.event_name == 'release' && github.event.action == 'released' && github.event.release.draft == false
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./endeavouros-dark-${{ github.ref_name }}.vsix
+          asset_name: endeavouros-dark-${{ github.ref_name }}.vsix
+          asset_content_type: application/octet-stream
